@@ -1,23 +1,20 @@
-# Infinique Studios
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**Infinique Studios** is a modern web design and development agency dedicated to building sleek, high-performance websites that elevate brands online. We combine creative design with robust engineering to deliver fast, responsive, and user-focused digital experiences.
+# Run and deploy your AI Studio app
 
-From landing pages to full-scale web applications, Infinique Studios transforms ideas into visually striking and technically solid products. Our approach blends strategy, aesthetics, and functionality to ensure every website not only looks exceptional but also performs flawlessly.
+This contains everything you need to run your app locally.
 
-Whether you're a startup looking to launch or an established business aiming to upgrade your digital presence, **Infinique Studios** builds websites that are designed to impress, perform, and scale.
+View your app in AI Studio: https://ai.studio/apps/c3eebda2-b02d-4813-92fd-9f33c0df74b8
 
----
+## Run Locally
 
-## What We Do
-- Custom Website Design
-- Frontend & Backend Development
-- Landing Pages & Marketing Sites
-- Web App Development
-- Performance Optimization
+**Prerequisites:**  Node.js
 
----
 
-## Why Infinique Studios?
-We focus on clean design, modern technologies, and real-world performance. Every project is built with attention to detail, speed, and user experience at its core.
-
-:D
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
